@@ -51,8 +51,12 @@
 		42DE50842B8F5D2700823476 /* ThreadsClone */ = {
 			isa = PBXGroup;
 			children = (
-				42DE50852B8F5D2700823476 /* ThreadsCloneApp.swift */,
-				42DE50872B8F5D2700823476 /* ContentView.swift */,
+				42DE50932B8F5E1F00823476 /* App */,
+				42DE50942B8F5E2800823476 /* Core */,
+				42DE50982B8F5E5900823476 /* Utils */,
+				42DE50972B8F5E4D00823476 /* Services */,
+				42DE50962B8F5E3E00823476 /* Model */,
+				42DE50952B8F5E3500823476 /* Extentions */,
 				42DE50892B8F5D2A00823476 /* Assets.xcassets */,
 				42DE508B2B8F5D2A00823476 /* Preview Content */,
 			);
@@ -65,6 +69,74 @@
 				42DE508C2B8F5D2A00823476 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		42DE50932B8F5E1F00823476 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				42DE50852B8F5D2700823476 /* ThreadsCloneApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		42DE50942B8F5E2800823476 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				42DE509A2B8F611100823476 /* Root */,
+				42DE50992B8F607300823476 /* Authentication */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		42DE50952B8F5E3500823476 /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extentions;
+			sourceTree = "<group>";
+		};
+		42DE50962B8F5E3E00823476 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		42DE50972B8F5E4D00823476 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		42DE50982B8F5E5900823476 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		42DE50992B8F607300823476 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				42DE509B2B8F621A00823476 /* Views */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		42DE509A2B8F611100823476 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				42DE50872B8F5D2700823476 /* ContentView.swift */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		42DE509B2B8F621A00823476 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
